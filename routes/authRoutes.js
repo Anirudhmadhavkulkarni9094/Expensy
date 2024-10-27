@@ -5,7 +5,7 @@ const User = require("../models/User");
 const router = express.Router();
 
 // Secret key for JWT
-const JWT_SECRET = "QOWEIFH0293YFIODLSBCSJD323FC";
+const JWT_SECRET ="kjbdskfwe83264893";
 
 // Register a new user
 router.post("/register", async (req, res) => {

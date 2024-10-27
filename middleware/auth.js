@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 
-const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_SECRET ="kjbdskfwe83264893";
 
 function authMiddleware(req, res, next) {
   // Check for token in x-auth-token header
