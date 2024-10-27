@@ -22,6 +22,10 @@ mongoose.connect(process.env.MONGODB_URL)
 app.use("/api/expenses", expenseRoutes);
 app.use("/api/auth", authRoutes);
 
+app.get("/", (req,res)=>{
+  res.send("App is up and healthy")
+})
+
 app.listen(3001, () => {
   console.log("Server running at 3001");
 });
